@@ -9,7 +9,7 @@ require 'PHPMailer/src/SMTP.php';
 
 include 'conexion.php';
 
-$nombre = $_POST['nombre'];
+$nombre = $_POST['username'];
 $email = $_POST['email'];
 $password = $_POST['contrasena'];
 
